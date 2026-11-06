@@ -1,0 +1,44 @@
+---
+type: doc-topic
+status: extracted
+title: "REST API Output Handling Parameters"
+product_version: "9.0.27"
+source: "Control-M User Guide 9.0.27 (Self-Hosted), September 2026"
+source_pages: "3329-3336"
+section: "Application-Integrator"
+parent: "[[Plug-in-Development]]"
+tags:
+  - control-m
+  - application-integrator
+---
+
+# REST API Output Handling Parameters
+
+**Section:** [[Application-Integrator-MOC]] · **Parent:** [[Plug-in-Development]]
+
+You can define rules that check for specific content in the step output from a REST API request and control how the job reacts to the output. For example, you can retain content from the output as parameter values.
+
+> [!note] Note
+The maximum size of REST API job output is 32MB per job execution.
+
+The following table describes the lines in output handling rules and the parameters in these lines.
+
+| Rule Parameters | Description |
+|---|---|
+| When the response is \<response status> | Enables you to select from the following statuses that determine when to handle output: • Any Response • Successful: HTTP response status codes 2xx • Failure: HTTP response status codes 4xx or 5xx • Specify Http Code, along with a specified value. In the specified value, you can insert an attribute by clicking . For more information, see [[Defining-Attributes]].<br>Note<br>Your selections of response status and Do action enable you to override Application Integrator's normal behavior of failing a job with a Failure status (4xx or 5xx) and completing a job with a Success status (2xx). |
+| Extract from \<request part> | Determines the part of the REST request from which to extract data, either the HEADER or the BODY. |
+| Content type \<format> | Determines one of the following content formats for the REST body: • JSON • XML • Other |
+| If output \<element> \<operator> \<value> | (For data from the header) Defines a condition for data extraction, with the following parameters: • Element: Enables you to specify an element in the header.<br>You can insert an attribute by clicking<br>. For more information, see [[Defining-Attributes]]. • Operator: Enables you to select from multiple operators to compare with the specified value, such as Equals to (=), Greater than (>), or Does not contain. For a range of values, you can select the In range operator and set the minimum and maximum values of the range. In the specified value, you can insert an attribute by clicking . For more information, see [[Defining-Attributes]]. |
+| If output \<path expression> \<operator> \<value> | (For JSON or XML data from the body) Defines a condition for data extraction, with the following parameters: • Path expression: Enables you to specify a JsonPath or XPath expression for selection of JSON or XML data. You can insert an attribute by clicking . For more information, see [[Defining-Attributes]]. • Operator: Enables you to select from multiple operators to compare with the specified value, such as Greater than (>), Contains, or Does not contain. For a range of values, you can select the In range operator and set the minimum and maximum values of the range. In the specified value, you can insert an attribute by clicking . For more information, see [[Defining-Attributes]]. |
+| If output \<operator> \<value> | (For data of other formats, not JSON or XML, from the body) Defines a condition for data extraction, with the following parameters: • Operator: Enables you to select from multiple operators, such as Starts with, Does not contain, or Matches regular expression. The Any operator enables you to use the full body without detecting and extracting specific output content. • Value: Defines the string to search for. You can insert an attribute by clicking . For more information, see [[Defining-Attributes]].<br>You can define only one condition of this type. |
+| Do \<actions> | Defines the actions to perform in response to detected output content.<br>The following actions are available in rules, depending on the step type: • Fail the job • Extract and handle data • Keep value in Runtime Parameter • Keep value of related element • Save content to file • Ignore failure • Complete and fail • Complete & Proceed • Print value to job output • Print value of related element to job output This print option is not relevant for the Any operator.<br>For information about action parameters, see the next table. |
+
+The following table describes additional parameters that are available to define actions.
+
+| Action Type | Parameter | Description |
+|---|---|---|
+| Extract and handle data | Extract \<scope><br>Trim preceding/trailing whitespace from extracted data Preview<br>Encrypt extracted data<br>Keep extracted data in a runtime parameter | Determines the quantity of data to extract, as follows: • Whole line: Extracts data from the whole line. • Match regular expression: Enables you to match an expression that you define in the Expression field. In the expression, you can click to insert an attribute, as described in [[Defining-Attributes]]. • Part of the line: Enables you to extract part of a line based on the outer boundaries of a string in the line: • Start position: Enables you to select a starting point based on a specific number of characters or words from the beginning or end of the line, or relative to an exact text in the line (after the text or including it). • End position: Enables you to select an endpoint based on the number of characters or words from the start position, or relative to an exact text in the line (up to the text or including it). • Columnar data: Enables you to extract columnar data when the output is column- based, such as CSV or SQL output format. You need to define the separation identifier between the columns and the column number that you want to extract.<br>Determines whether to remove blank spaces that appear at the beginning or at the end of the extracted data, for extraction of part of a line or extraction of columnar data. Enables you to view the effect of your settings on a sample text. Based on your settings, the text that is extracted is highlighted in yellow. You can replace or edit the sample text by clicking .<br>Replaces the extracted data with asterisks (****** ) in the logs, customer log, or output, to keep sensitive data secure.<br>Stores the extracted data as the value of a runtime parameter that you define.<br>In addition, you can choose to fail the job based on the value of this runtime parameter, using a rule with the following syntax:<br>Fail the job if extracted data \<comparison operator> \<value\|range> |
+| Keep value in Runtime Parameter | Parameter name<br>Encrypt the runtime parameter value<br>Include the runtime parameter value in job output<br>Fail\|Succeed the job if... | Defines the name of the runtime parameter where the extracted value is stored for future use.<br>Replaces the value of the runtime parameter with asterisks (******) in the logs, customer log, or output, to keep sensitive data secure.<br>Determines whether to include the runtime parameter value in the job output.<br>This option is selected by default.<br>(For Verify operation completion sub-step only) Enables you to set the status of the job to failed or succeeded based on the value of the runtime parameter using a rule with the following syntax:<br>[Fail\|Succeed] the job if extracted data \<comparison operator> \<value\|range> |
+| Keep value of related element | Element name<br>Parameter name<br>Encrypt the runtime parameter value | Defines the name of the element with the value that you want to keep.<br>This element is on the same level or a child element in the XML response or JSON response.<br>Defines the name of the parameter in which to save the element value.<br>Replaces the value of the runtime parameter with asterisks (******) in the logs, customer log, or output, to keep sensitive data secure. |
+| Save content to file | File name<br>Append date and time to file name<br>Store the full path to the output file in a runtime parameter | Defines the name of the file to save the output. You can also specify the file extension.<br>Appends the date and time to the filename, to avoid overwriting the same file every execution.<br>Stores the full path of the output file as the value of a runtime parameter that you define. |
+| Print value to job output<br>or<br>Print value of related element to job output | Element name<br>Prefix<br>Suffix<br>Decode Base64 | Defines the name of the element with the value that you want to print to the job output.<br>Defines a prefix to add before the beginning of the value.<br>You can insert an attribute by clicking<br>. For more information, see [[Defining-Attributes]].<br>Defines a suffix to add after the end of the value.<br>You can insert an attribute by clicking<br>. For more information, see [[Defining-Attributes]].<br>Determines whether to decode the value from Base64 format. |

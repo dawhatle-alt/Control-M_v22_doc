@@ -1,0 +1,116 @@
+---
+type: moc
+status: extracted
+section: "Job-Types"
+tags:
+  - control-m
+  - moc
+---
+
+# Job Types — MOC
+
+Up: [[Control-M-Guide-MOC]]
+
+- [[Job-Types]] (pp. 174–221)
+- [[Application-Workflow-Jobs]] (pp. 222–241)
+- [[Backup-and-Recovery-Jobs]] (pp. 242–260)
+- [[Business-Intelligence-and-Analytics-Jobs]] (pp. 261–280)
+- [[CI-CD-Jobs]] (pp. 281–293)
+- [[Cloud-Computing-Jobs]] (pp. 294–294)
+  - [[AWS-Auto-Scaling-Groups-Job]]
+  - [[AWS-Batch-Job]]
+  - [[Amazon-EC2-Job]]
+  - [[AWS-Lambda-Job]]
+  - [[Azure-App-Services-WebJobs-Job]]
+  - [[Azure-Batch-Accounts-Job]]
+  - [[Azure-Functions-Job]]
+  - [[Azure-VM-Job]]
+  - [[Azure-VM-Scale-Sets-Job]]
+  - [[GCP-Batch-Job]]
+  - [[GCP-Eventarc-Job]]
+  - [[GCP-Functions-Job]]
+  - [[GCP-Managed-Instance-Groups-Job]]
+  - [[GCP-VM-Job]]
+  - [[OCI-Functions-Job]]
+  - [[OCI-VM-Job]]
+  - [[VMware-by-Broadcom-Job]]
+- [[Container-Orchestration-Jobs]] (pp. 349–363)
+- [[Data-Integration-Jobs]] (pp. 364–364)
+  - [[Airbyte-Job]]
+  - [[Alteryx-Trifacta-Job]]
+  - [[Amazon-RDS-Job]]
+  - [[Apache-NiFi-Job]]
+  - [[AWS-AppFlow-Job]]
+  - [[AWS-Database-Migration-Service-Job]]
+  - [[AWS-Glue-Job]]
+  - [[AWS-Glue-DataBrew-Job]]
+  - [[Azure-Data-Factory-Job]]
+  - [[Boomi-AtomSphere-Job]]
+  - [[Dataiku-Job]]
+  - [[Fivetran-Job]]
+  - [[GCP-Data-Fusion-Job]]
+  - [[GCP-Dataplex-Job]]
+  - [[GCP-Dataprep-Job]]
+  - [[IBM-DataStage-Job]]
+  - [[IBM-InfoSphere-DataStage-Job]]
+  - [[Informatica-Job]]
+  - [[Informatica-CS-Job]]
+  - [[Matillion-Job]]
+  - [[Microsoft-Fabric-Job]]
+  - [[OCI-Data-Integration-Job]]
+  - [[OCI-Data-Transforms-Job]]
+  - [[Oracle-Fusion-Cloud-ESS-Job]]
+  - [[SAP-Integration-Suite-Job]]
+  - [[Talend-Data-Management-Job]]
+  - [[Talend-OAuth-Job]]
+- [[Data-Processing-and-Analytics-Jobs]] (pp. 422–422)
+  - [[Amazon-Athena-Job]]
+  - [[AWS-Data-Pipeline-Job]]
+  - [[Amazon-DynamoDB-Job]]
+  - [[Amazon-EMR-Job]]
+  - [[Amazon-Redshift-Job]]
+  - [[Azure-AI-Foundry-Job]]
+  - [[Azure-Databricks-Job]]
+  - [[Azure-HDInsight-Job]]
+  - [[Azure-Synapse-Job]]
+  - [[Data-Assurance-Job]]
+  - [[Databricks-Job]]
+  - [[dbt-Job]]
+  - [[GCP-BigQuery-Job]]
+  - [[GCP-Dataflow-Job]]
+  - [[GCP-Dataproc-Job]]
+  - [[Hadoop-Job]]
+  - [[OCI-Data-Flow-Job]]
+  - [[Snowflake-Job]]
+  - [[Snowflake-Cortex-AI-Job]]
+- [[Databases-Job]] (pp. 490–494)
+- [[Enterprise-Resource-Planning-Jobs]] (pp. 495–495)
+  - [[Oracle-E-Business-Suite-Job]]
+  - [[Oracle-JD-Edwards-EnterpriseOne-Job]]
+  - [[PeopleSoft-Job]]
+  - [[SAP-BTP-Scheduler-Job]]
+  - [[SAP-Build-Process-Automation-Job]]
+  - [[SAP-Business-Warehouse-Job]]
+  - [[SAP-Data-Archiving-Job]]
+  - [[SAP-Datasphere-Job]]
+  - [[SAP-IBP-Job]]
+  - [[SAP-R-3-Job]]
+- [[File-Transfer-Job]] (pp. 569–604)
+- [[File-Watcher-Job]] (pp. 605–609)
+- [[Infrastructure-as-Code-Jobs]] (pp. 610–629)
+- [[Machine-Learning-Jobs]] (pp. 630–650)
+- [[Mainframe-Modernization-Jobs]] (pp. 651–661)
+- [[Messaging-and-Communication-Jobs]] (pp. 662–676)
+- [[Messaging-and-Queuing-Jobs]] (pp. 677–690)
+- [[OS-Job]] (pp. 691–699)
+- [[OS-400-Jobs]] (pp. 700–700)
+  - [[OS-400-Full-Job]]
+  - [[OS-400-Program-Job]]
+  - [[OS-400-Multiple-Commands-Job]]
+  - [[OS-400-VT-Job]]
+  - [[OS-400-External-Job]]
+- [[Robotic-Process-Automation-Jobs]] (pp. 766–770)
+- [[SLA-Management-Job]] (pp. 771–778)
+- [[Tandem-Job]] (pp. 779–782)
+- [[Web-Services-Jobs]] (pp. 783–810)
+- [[z-OS-Job]] (pp. 811–825)

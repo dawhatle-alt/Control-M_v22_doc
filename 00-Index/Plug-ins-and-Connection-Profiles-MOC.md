@@ -1,0 +1,94 @@
+---
+type: moc
+status: extracted
+section: "Plug-ins-and-Connection-Profiles"
+tags:
+  - control-m
+  - moc
+---
+
+# Plug ins and Connection Profiles — MOC
+
+Up: [[Control-M-Guide-MOC]]
+
+- [[Plug-ins]] (pp. 2949–2951)
+- [[Connection-Profiles]] (pp. 2952–2970)
+- [[Application-Workflow-Connection-Profiles]] (pp. 2971–2987)
+- [[Backup-and-Recovery]] (pp. 2988–3000)
+- [[Business-Intelligence-and-Analytics-Connection-Profiles]] (pp. 3001–3013)
+- [[CI-CD-Connection-Profiles]] (pp. 3014–3021)
+- [[Cloud-Computing-Connection-Profiles]] (pp. 3022–3022)
+  - [[AWS-Auto-Scaling-Groups-Connection-Profile-Parameters]]
+  - [[AWS-Batch-Connection-Profile-Parameters]]
+  - [[Amazon-EC2-Virtual-Machine-Connection-Profile-Parameters]]
+  - [[AWS-Lambda-Connection-Profile-Parameters]]
+  - [[Azure-App-Services-WebJobs-Connection-Profile-Parameters]]
+  - [[Azure-Batch-Accounts-Connection-Profile-Parameters]]
+  - [[Azure-Functions-Connection-Profile-Parameters]]
+  - [[Azure-Virtual-Machine-Connection-Profile-Parameters]]
+  - [[Azure-VM-Scale-Sets-Connection-Profile-Parameters]]
+  - [[GCP-Batch-Connection-Profile-Parameters]]
+  - [[GCP-Eventarc-Connection-Profile-Parameters]]
+  - [[GCP-Functions-Connection-Profile-Parameters]]
+  - [[GCP-Managed-Instance-Groups-Connection-Profile-Parameters]]
+  - [[GCP-VM-Connection-Profile-Parameters]]
+  - [[OCI-Functions-Connection-Profile-Parameters]]
+  - [[OCI-VM-Connection-Profile-Parameters]]
+  - [[VMware-by-Broadcom-Connection-Profile-Parameters]]
+- [[Container-Orchestration-Connection-Profiles]] (pp. 3069–3082)
+- [[Data-Integration-Connection-Profiles]] (pp. 3083–3083)
+  - [[Airbyte-Connection-Profile-Parameters]]
+  - [[Alteryx-Trifacta-Connection-Profile-Parameters]]
+  - [[Amazon-RDS-Connection-Profile-Parameters]]
+  - [[Apache-NiFi-Connection-Profile-Parameters]]
+  - [[AWS-AppFlow-Connection-Profile-Parameters]]
+  - [[AWS-Database-Migration-Service-Connection-Profile-Parameters]]
+  - [[AWS-Glue-Connection-Profile-Parameters]]
+  - [[AWS-Glue-DataBrew-Connection-Profile-Parameters]]
+  - [[Azure-Data-Factory-Connection-Profile-Parameters]]
+  - [[Boomi-AtomSphere-Connection-Profile-Parameters]]
+  - [[Dataiku-Connection-Profile-Parameters]]
+  - [[Fivetran-Connection-Profile-Parameters]]
+  - [[GCP-Data-Fusion-Connection-Profile-Parameters]]
+  - [[GCP-Dataplex-Connection-Profile-Parameters]]
+  - [[GCP-Dataprep-Connection-Profile-Parameters]]
+  - [[IBM-DataStage-Connection-Profile-Parameters]]
+  - [[IBM-InfoSphere-DataStage-Connection-Profile-Parameters]]
+  - [[Informatica-Connection-Profile-Parameters]]
+  - [[Informatica-CS-Connection-Profile-Parameters]]
+  - [[Matillion-Connection-Profile-Parameters]]
+  - [[Microsoft-Fabric-Connection-Profile-Parameters]]
+  - [[OCI-Data-Integration-Connection-Profile-Parameters]]
+  - [[OCI-Data-Transforms-Connection-Profile-Parameters]]
+  - [[Oracle-Fusion-Cloud-ESS-Connection-Profile-Parameters]]
+  - [[SAP-Integration-Suite-Connection-Profile-Parameters]]
+  - [[Talend-Data-Management-Connection-Profile-Parameters]]
+  - [[Talend-OAuth-Connection-Profile-Parameters]]
+- [[Data-Processing-and-Analytics-Connection-Profiles]] (pp. 3141–3141)
+  - [[Amazon-Athena-Connection-Profile-Parameters]]
+  - [[AWS-Data-Pipeline-Connection-Profile-Parameters]]
+  - [[Amazon-DynamoDB-Connection-Profile-Parameters]]
+  - [[Amazon-EMR-Connection-Profile-Parameters]]
+  - [[Amazon-Redshift-Connection-Profile-Parameters]]
+  - [[Azure-AI-Foundry-Connection-Profile-Parameters]]
+  - [[Azure-Databricks-Connection-Profile-Parameters]]
+  - [[Azure-HDInsight-Connection-Profile-Parameters]]
+  - [[Azure-Synapse-Connection-Profile-Parameters]]
+  - [[Data-Assurance-Connection-Profile-Parameters]]
+  - [[Databricks-Connection-Profile-Parameters]]
+  - [[dbt-Connection-Profile-Parameters]]
+  - [[GCP-BigQuery-Connection-Profile-Parameters]]
+  - [[GCP-Dataflow-Connection-Profile-Parameters]]
+  - [[GCP-Dataproc-Connection-Profile-Parameters]]
+  - [[OCI-Data-Flow-Connection-Profile-Parameters]]
+  - [[Snowflake-Connection-Profile-Parameters]]
+  - [[Snowflake-IdP-Connection-Profile-Parameters]]
+  - [[Snowflake-Cortex-AI-Connection-Profile-Parameters]]
+- [[Enterprise-Resource-Planning-(ERP)-Connection-Profiles]] (pp. 3189–3207)
+- [[Infrastructure-as-Code-Connection-Profiles]] (pp. 3208–3216)
+- [[Machine-Learning-Connection-Profiles]] (pp. 3217–3235)
+- [[Mainframe-Modernization-Connection-Profiles]] (pp. 3236–3241)
+- [[Messaging-and-Communication-Connection-Profiles]] (pp. 3242–3252)
+- [[Messaging-and-Queuing-Connection-Profiles]] (pp. 3253–3266)
+- [[Robotic-Process-Automation-Connection-Profiles]] (pp. 3267–3269)
+- [[Web-Services-Connection-Profiles]] (pp. 3270–3278)

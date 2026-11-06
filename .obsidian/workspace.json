@@ -1,0 +1,239 @@
+{
+  "main": {
+    "id": "3d80da9987e87832",
+    "type": "split",
+    "children": [
+      {
+        "id": "121ebc12dd3e7d01",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d5efdec323608810",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "10-Guide/31-Monitoring-Utilities/ctmcreate.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "ctmcreate"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4025f7b8b42f2ca5",
+    "type": "split",
+    "children": [
+      {
+        "id": "8e6c87723028f14c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e89bf5487a9a781d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "1ebd4a1056cc2f00",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#control-m",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "e70dbdb791675cc8",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "18bf91ef6edf1d41",
+    "type": "split",
+    "children": [
+      {
+        "id": "6784332b0972fe80",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b9b91b9a7821cab2",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "95ce0d8b15adab3d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "587b364799dc9607",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "0d151b61e8c547ff",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "4fdaba3264e512fc",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          },
+          {
+            "id": "58b871da92439d8f",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "e89bf5487a9a781d",
+  "lastOpenFiles": [
+    "Untitled",
+    "10-Guide/31-Monitoring-Utilities/ctmcontb.md",
+    "10-Guide/21-Job-Types/Cloud-Computing-Jobs/Azure-VM-Job.md",
+    "10-Guide/21-Job-Types/Cloud-Computing-Jobs/Azure-App-Services-WebJobs-Job.md",
+    "10-Guide/21-Job-Types/Cloud-Computing-Jobs/AWS-Lambda-Job.md",
+    "10-Guide/21-Job-Types/Cloud-Computing-Jobs/AWS-Auto-Scaling-Groups-Job.md",
+    "10-Guide/21-Job-Types/Cloud-Computing-Jobs/Amazon-EC2-Job.md",
+    "10-Guide/20-Planning/Workspaces.md",
+    "10-Guide/20-Planning/Planning.md",
+    "10-Guide/20-Planning/Creating-a-Sub-folder.md",
+    "10-Guide/20-Planning/Creating-a-Job.md",
+    "10-Guide/20-Planning/Creating-a-Folder.md",
+    "_tools/README.md",
+    "00-Index/Administration-MOC.md",
+    "10-Guide/64-Integrations/Control-M-Integrations-Authentication-Methods.md",
+    "00-Index/Integrations-MOC.md",
+    "10-Guide/44-EM-Utilities/ccmcli.md",
+    "10-Guide/40-Administration/Control-M-EM-Management.md",
+    "00-Index/About-This-Vault.md",
+    "10-Guide/60-Plug-ins-and-Connection-Profiles/Connection-Profiles.md",
+    "10-Guide/41-Reports/Report-Management.md",
+    "00-Index/Server-Utilities-MOC.md",
+    "10-Guide/21-Job-Types/Cloud-Computing-Jobs/Cloud-Computing-Jobs.md",
+    "10-Guide/21-Job-Types/Cloud-Computing-Jobs/Azure-VM-Scale-Sets-Job.md",
+    "10-Guide/21-Job-Types/Cloud-Computing-Jobs/Azure-Functions-Job.md",
+    "10-Guide/21-Job-Types/Cloud-Computing-Jobs/Azure-Batch-Accounts-Job.md",
+    "Untitled.canvas",
+    "10-Guide/20-Planning",
+    "10-Guide/46-Automation-API-Admin",
+    "10-Guide/21-Job-Types/OS-400-Jobs",
+    "10-Guide/21-Job-Types/Data-Integration-Jobs",
+    "10-Guide/21-Job-Types/Enterprise-Resource-Planning-Jobs",
+    "10-Guide/21-Job-Types/Data-Processing-and-Analytics-Jobs",
+    "10-Guide/21-Job-Types/Cloud-Computing-Jobs",
+    "10-Guide/21-Job-Types",
+    "10-Guide/50-Messages/Control-M-Messages",
+    "10-Guide/50-Messages"
+  ]
+}
